@@ -1,4 +1,4 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,29 +9,61 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f8f8f8;
+            color: #333;
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
         }
+        header {
+            background: #ffebee;
+            color: #d32f2f;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #d32f2f;
+        }
         .section {
             padding: 20px;
-            background-color: #fff;
+            background-color: #ffffff;
             margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d32f2f;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
         img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
             margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .image-gallery img {
+            flex: 1 1 calc(33% - 20px);
+            max-width: calc(33% - 20px);
         }
     </style>
 </head>
 <body>
+
+    <header>
+        <h1>Celebración y Recuerdo</h1>
+    </header>
 
     <div class="container">
 
@@ -40,16 +72,18 @@
             <p>Desde aquel 10 de febrero en el campamento, algo en mi corazón supo que nuestra historia apenas comenzaba. Lo que empezó como una simple conversación se ha convertido en un viaje increíble lleno de risas, complicidad y cariño. No puedo evitar sonreír al pensar en cómo nuestras vidas se entrelazaron de manera tan perfecta.</p>
             <p>El 26 de julio fue un día que marcó un antes y un después para mí. Te pedí que fueras mi novia, y con tu sí, hiciste que todos mis sueños se sintieran más reales. Cada día contigo ha sido una bendición, y nuestro primer mes juntos es solo el comienzo de muchas aventuras y momentos especiales que nos esperan.</p>
             <p>Desde nuestras primeras experiencias juntos hasta los pequeños detalles de la vida diaria, cada momento ha sido único. Cada vez que compartimos algo nuevo, me doy cuenta de lo especial que eres y de cómo tu presencia ilumina mi vida. Estoy emocionado por todo lo que aún nos queda por vivir y explorar juntos.</p>
-            <!-- Imágenes -->
-            <img src="https://imgur.com/dOk0D8j.jpeg" alt="Celebración con Camila 1">
-            <img src="https://imgur.com/iEUTwFG.jpeg" alt="Celebración con Camila 2">
-            <img src="https://imgur.com/D5OQxbf.jpeg" alt="Celebración con Camila 3">
-            <img src="https://imgur.com/6RioU7E.jpeg" alt="Celebración con Camila 4">
-            <img src="https://imgur.com/hSHZiXz.jpeg" alt="Celebración con Camila 5">
-            <img src="https://imgur.com/dZitRAe.jpeg" alt="Celebración con Camila 6">
-            <img src="https://imgur.com/N1SZckw.jpeg" alt="Celebración con Camila 7">
-            <img src="https://imgur.com/dVUn5MS.jpeg" alt="Celebración con Camila 8">
-            <img src="https://imgur.com/1IbYAPC.jpeg" alt="Celebración con Camila 9">
+            <!-- Imágenes de la celebración -->
+            <div class="image-gallery">
+                <img src="https://imgur.com/dOk0D8j.jpeg" alt="Celebración con Camila 1">
+                <img src="https://imgur.com/iEUTwFG.jpeg" alt="Celebración con Camila 2">
+                <img src="https://imgur.com/D5OQxbf.jpeg" alt="Celebración con Camila 3">
+                <img src="https://imgur.com/6RioU7E.jpeg" alt="Celebración con Camila 4">
+                <img src="https://imgur.com/hSHZiXz.jpeg" alt="Celebración con Camila 5">
+                <img src="https://imgur.com/dZitRAe.jpeg" alt="Celebración con Camila 6">
+                <img src="https://imgur.com/N1SZckw.jpeg" alt="Celebración con Camila 7">
+                <img src="https://imgur.com/dVUn5MS.jpeg" alt="Celebración con Camila 8">
+                <img src="https://imgur.com/1IbYAPC.jpeg" alt="Celebración con Camila 9">
+            </div>
         </div>
 
         <div class="section" id="recuerdo">
@@ -58,23 +92,23 @@
             <p>Chase no era solo una mascota, sino un verdadero amigo y compañero. Su amor y lealtad dejaron una huella en tu vida que siempre llevarás contigo. Quiero que sepas que estoy aquí para ti, para apoyarte en cada paso del camino y para recordarte que, aunque Chase no esté físicamente, su recuerdo y el cariño que le tenías siempre estarán vivos en tu corazón.</p>
             <p>Este espacio es para ti, para que encuentres consuelo y paz al recordar a Chase. A veces, las palabras no pueden expresar todo lo que sentimos, pero espero que este rincón te brinde el apoyo y el recuerdo que necesitas. Chase siempre será una parte importante de tu vida, y aquí podrás visitarlo cada vez que necesites sentir su amor cerca.</p>
             <!-- Imágenes de Chase -->
-            <img src="https://i.imgur.com/Bgt0oLc.jpeg" alt="Chase 1">
-            <img src="https://i.imgur.com/AmssrPe.jpeg" alt="Chase 2">
-            <img src="https://i.imgur.com/svAb2lX.jpeg" alt="Chase 3">
-            <img src="https://i.imgur.com/zlScNa6.jpeg" alt="Chase 4">
-            <img src="https://i.imgur.com/Yq617Mz.jpeg" alt="Chase 5">
-            <img src="https://i.imgur.com/rjOIDy7.jpeg" alt="Chase 6">
-            <img src="https://i.imgur.com/E60NGE9.jpeg" alt="Chase 7">
-            <img src="https://i.imgur.com/nfsLDb4.jpeg" alt="Chase 8">
-            <img src="https://i.imgur.com/SJB6ByQ.jpeg" alt="Chase 9">
-            <img src="https://i.imgur.com/i1n8GpV.jpeg" alt="Chase 10">
-            <img src="https://i.imgur.com/1CGx42E.jpeg" alt="Chase 11">
-            <img src="https://i.imgur.com/fqDslY0.jpeg" alt="Chase 12">
+            <div class="image-gallery">
+                <img src="https://i.imgur.com/Bgt0oLc.jpeg" alt="Chase 1">
+                <img src="https://i.imgur.com/AmssrPe.jpeg" alt="Chase 2">
+                <img src="https://i.imgur.com/svAb2lX.jpeg" alt="Chase 3">
+                <img src="https://i.imgur.com/zlScNa6.jpeg" alt="Chase 4">
+                <img src="https://i.imgur.com/Yq617Mz.jpeg" alt="Chase 5">
+                <img src="https://i.imgur.com/rjOIDy7.jpeg" alt="Chase 6">
+                <img src="https://i.imgur.com/E60NGE9.jpeg" alt="Chase 7">
+                <img src="https://i.imgur.com/nfsLDb4.jpeg" alt="Chase 8">
+                <img src="https://i.imgur.com/SJB6ByQ.jpeg" alt="Chase 9">
+                <img src="https://i.imgur.com/i1n8GpV.jpeg" alt="Chase 10">
+                <img src="https://i.imgur.com/1CGx42E.jpeg" alt="Chase 11">
+                <img src="https://i.imgur.com/fqDslY0.jpeg" alt="Chase 12">
+            </div>
         </div>
 
     </div>
 
 </body>
 </html>
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </htm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
